@@ -4,6 +4,12 @@ Repositório público criado pela pessoa proprietária: [PedroAndrad3/Free-My-So
 
 A pessoa proprietária autorizou explicitamente a publicação dos arquivos revisados de código e documentação. A análise de firmware continua restrita a arquivos locais; firmware, relatórios brutos e dados privados não fazem parte da publicação.
 
+## Estado da publicação
+
+O envio inicial da branch `main` foi confirmado no commit `66007fb`. A árvore pública contém os 18 arquivos revisados; `firmware/` e `reports/` contêm somente `.gitkeep`. A pasta local está conectada ao remoto `origin` com acompanhamento de `origin/main`.
+
+A [primeira execução dos testes](https://github.com/PedroAndrad3/Free-My-Sony/actions/runs/40367696110) passou nas quatro combinações de Windows/Linux e Python 3.9/3.13. Esse resultado se refere ao commit `66007fb`; atualizações posteriores podem ser acompanhadas na aba Actions.
+
 ## Conteúdo público
 
 Código Python, testes sintéticos, documentação revisada, licença MIT, guia de contribuição e configuração do GitHub Actions. O firmware e os relatórios brutos continuam locais. Os arquivos `.gitkeep` apenas mantêm as pastas vazias no Git.

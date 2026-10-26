@@ -37,5 +37,5 @@
 - [x] Remover endereços e detalhes da rede pessoal da documentação pública e ampliar exclusões do Git.
 - [x] Reproduzir os quatro testes existentes com o Python do runtime do aplicativo e uma pasta temporária local.
 - [x] Repositório público `PedroAndrad3/Free-My-Sony` criado pela pessoa proprietária; publicação de código e documentação autorizada explicitamente.
-- [ ] Publicar o código e a documentação revisados no repositório.
-- [ ] Confirmar a execução dos testes no GitHub Actions após a publicação.
+- [x] Publicar o código e a documentação revisados no repositório.
+- [x] Confirmar a execução dos testes no GitHub Actions após a publicação: quatro combinações aprovadas em Windows/Linux e Python 3.9/3.13, no commit `66007fb`.
