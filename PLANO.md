@@ -36,5 +36,6 @@
 - [x] Configurar workflow de testes sintéticos para Windows e Linux, sem firmware.
 - [x] Remover endereços e detalhes da rede pessoal da documentação pública e ampliar exclusões do Git.
 - [x] Reproduzir os quatro testes existentes com o Python do runtime do aplicativo e uma pasta temporária local.
-- [ ] Criar o repositório público no GitHub e publicar o commit inicial após resolver a autorização de acesso externo.
+- [x] Repositório público `PedroAndrad3/Free-My-Sony` criado pela pessoa proprietária; publicação de código e documentação autorizada explicitamente.
+- [ ] Publicar o código e a documentação revisados no repositório.
 - [ ] Confirmar a execução dos testes no GitHub Actions após a publicação.

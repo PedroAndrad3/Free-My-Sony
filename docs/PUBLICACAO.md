@@ -1,8 +1,8 @@
 # Publicar o projeto no GitHub
 
-Destino proposto: conta `PedroAndrad3`, repositório público `sony-kd55x705g-codex`.
+Repositório público criado pela pessoa proprietária: [PedroAndrad3/Free-My-Sony](https://github.com/PedroAndrad3/Free-My-Sony).
 
-Esta preparação local não confirma a criação do repositório remoto. A publicação externa foi interrompida pela revisão automática por causa da restrição de trabalhar somente com arquivos locais; é necessário esclarecer a autorização para publicar o código e a documentação.
+A pessoa proprietária autorizou explicitamente a publicação dos arquivos revisados de código e documentação. A análise de firmware continua restrita a arquivos locais; firmware, relatórios brutos e dados privados não fazem parte da publicação.
 
 ## Conteúdo público
 
@@ -27,9 +27,9 @@ $env:TMP = $env:TEMP
 py -3 -m unittest discover -s tests -v
 ```
 
-## Publicação após autorização
+## Publicação e atualizações
 
-1. No GitHub, crie um repositório público vazio chamado `sony-kd55x705g-codex` na conta `PedroAndrad3`. Não adicione README, licença ou `.gitignore` pelo site, pois eles já existem localmente.
+1. O destino é `PedroAndrad3/Free-My-Sony`. Para uma nova cópia de trabalho, clone esse repositório. Para a pasta original do projeto, conecte o remoto conforme o passo 3.
 2. Revise o que será publicado:
 
 ```powershell
@@ -39,10 +39,10 @@ git log -1 --oneline
 git check-ignore firmware/sony_tvupdate_2017_7931_bff_auth.zip reports/firmware_inventory.json reports/firmware_report.md
 ```
 
-3. Depois de criar o remoto e conferir os arquivos, conecte e envie a branch:
+3. Na pasta original, se ainda não houver remoto, conecte-o e envie a branch:
 
 ```powershell
-git remote add origin https://github.com/PedroAndrad3/sony-kd55x705g-codex.git
+git remote add origin https://github.com/PedroAndrad3/Free-My-Sony.git
 git push -u origin main
 ```
 

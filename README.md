@@ -1,4 +1,6 @@
-# Sony KD-55X705G — investigação aberta de firmware
+# Free My Sony — Sony KD-55X705G
+
+Investigação aberta de firmware: [PedroAndrad3/Free-My-Sony](https://github.com/PedroAndrad3/Free-My-Sony).
 
 Projeto de **engenharia reversa exploratória, somente leitura** do firmware oficial Sony 7.931, com foco em avaliar realisticamente a possibilidade de executar aplicativos adicionais em uma Smart TV Sony **sem Android**.
 
