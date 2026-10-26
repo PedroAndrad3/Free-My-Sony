@@ -1,0 +1,37 @@
+# Firmware e qualquer payload extraído não devem entrar no Git
+firmware/*
+!firmware/.gitkeep
+reports/*
+!reports/.gitkeep
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.img
+*.bin
+*.squashfs
+*.ubi
+*.ubifs
+*.enc
+*.key
+*.pem
+
+# Pacotes e capturas privados, mesmo quando colocados fora de firmware/
+*.zip
+*.7z
+*.rar
+*.pkg
+*.iso
+*.dump
+*.pcap
+*.pcapng
+*.har
+*.log
+.env
+.env.*
+!.env.example
+private/
+local/
+.tmp/
+.codex/
+.agents/
